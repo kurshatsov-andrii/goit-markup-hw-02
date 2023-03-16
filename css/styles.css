@@ -1,0 +1,56 @@
+/*---------------ELEMENTS---------------*/
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.list{
+    list-style: none;
+}
+
+.link{
+    text-decoration: none;
+}
+
+/*---------------HEADER---------------*/
+.header-main {}
+
+.nav-main {}
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.logo-text{
+    color: #2E2F42;
+}
+
+.menu {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+}
+
+.menu-item {   
+}
+
+.address-main {}
+
+.contact-main {}
+
+.email {}
+
+.tel {}
+
+/*---------------FOOTER---------------*/
+
+.text-footer {}
