@@ -18,8 +18,8 @@
 
 body {
     font-family: var(--primary-font);
-    color: var(--color-second-text);   
-    background-color: var(--background-color);
+    /*color: var(--color-second-text);   
+    background-color: var(--background-color);*/
 }
 
 /*---------------HEADER---------------*/
@@ -42,11 +42,9 @@ body {
 }
 
 .menu {
-    color: var(--color-main-text);
 }
 
 .menu-item {
-    color: var(--color-main-text);
 }
 
 .menu-item-link { 
@@ -54,7 +52,7 @@ body {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--color-main-text);
+    color: var(--color-second-text);
 }
 
 .menu-item-link:hover,
@@ -88,7 +86,7 @@ body {
 
 /*---------------HERO---------------*/
 .hero {
-    background: var(--color-main-text);
+    background-color: var(--color-main-text);
 }
 
 .hero-title {
