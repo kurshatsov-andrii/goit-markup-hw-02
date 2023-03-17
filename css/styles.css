@@ -1,7 +1,7 @@
 /*---------------VAR---------------*/
 :root{
     --color-main-text: #2E2F42;
-    --color-second-text: #434455;;
+    --color-second-text: #434455;
     --primary-font: 'Roboto', sans-serif;
     --secondary-font: 'Raleway', sans-serif;
     --background-color: #FFFFFF;
@@ -50,11 +50,11 @@ body {
 }
 
 .menu-item-link { 
-    font-weight: normal; /*500*/
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--color-main-text);
+    color: var(--color-second-text);
 }
 
 .menu-item-link:hover,
@@ -108,7 +108,7 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.50;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     color: #FFFFFF;
 }
@@ -131,13 +131,13 @@ background-color: #404BBF;
 .benefits-subtitle {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.20;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--color-main-text);
 }
 
 .benefits-text {
-    line-height: 1.50;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-second-text);
 }
@@ -186,14 +186,14 @@ background-color: #404BBF;
 .team-subtitle {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.20;
+    line-height: 1.2;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--color-main-text);
 }
 
 .team-text {
-    line-height: 1.50;
+    line-height: 1.5;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--color-second-text);
@@ -215,11 +215,12 @@ background-color: #404BBF;
     font-size: 16px;
     border-radius: 4px;
     font-weight: 500;
-    line-height: 1.50;
+    line-height: 1.5;
     text-align: center;
     color: #4D5AE5;
     font-family: var(--primary-font);
     letter-spacing: 0.04em;
+    cursor: pointer;
 }
 
 .projects-menu {}
@@ -231,13 +232,13 @@ background-color: #404BBF;
 .projects-subtitle {
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.20px;
+    line-height: 1.2px;
     letter-spacing: 0.02em;
     color: var(--color-main-text);
 }
 
 .projects-text {
-    line-height: 1.50;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--color-second-text);
 }
