@@ -41,7 +41,12 @@ body {
     color: var(--color-main-text);
 }
 
-.menu {        
+.menu {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    color: var(--color-main-text);
 }
 
 .menu-item-link { 
