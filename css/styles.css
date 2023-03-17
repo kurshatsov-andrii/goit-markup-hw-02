@@ -18,8 +18,8 @@
 
 body {
     font-family: var(--primary-font);
-    /*color: var(--color-second-text);   
-    background-color: var(--background-color);*/
+    color: var(--color-second-text);   
+    background-color: var(--background-color);
 }
 
 /*---------------HEADER---------------*/
