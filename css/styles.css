@@ -50,7 +50,7 @@ body {
 }
 
 .menu-item-link { 
-    font-weight: 500;
+    font-weight: normal; /*500*/
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -216,9 +216,7 @@ background-color: #404BBF;
     border-radius: 4px;
     font-weight: 500;
     line-height: 1.50;
-    align-items: center;
     text-align: center;
-    letter-spacing: 0.04em;
     color: #4D5AE5;
     font-family: var(--primary-font);
     letter-spacing: 0.04em;
@@ -251,13 +249,8 @@ color: #FFFFFF;
 
 .projects-button:hover,
 .projects-button:focus {
-background: #404BBF;
-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
-0px 2px 1px rgba(0, 0, 0, 0.08),
-0px 2px 2px rgba(0, 0, 0, 0.12);
-border-radius: 4px;
+background-color: #404BBF;
 color: #FFFFFF;
-cursor: pointer;
 }
 /*---------------FOOTER---------------*/
 
