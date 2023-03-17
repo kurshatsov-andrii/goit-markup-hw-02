@@ -4,6 +4,7 @@
     --color-second-text: #434455;;
     --primary-font: 'Roboto', sans-serif;
     --secondary-font: 'Raleway', sans-serif;
+    --background-color: #FFFFFF;
 }
 
 /*---------------MAIN---------------*/
@@ -17,7 +18,8 @@
 
 body {
     font-family: var(--primary-font);
-    color: var(--color-main-text);    
+    color: var(--color-second-text);   
+    background-color: var(--background-color);
 }
 
 /*---------------HEADER---------------*/
@@ -91,7 +93,7 @@ body {
 
 .hero-title {
     font-size: 56px;
-    line-height: 10.7;
+    line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
@@ -109,6 +111,11 @@ body {
     line-height: 1.50;
     letter-spacing: 0.04em;
     color: #FFFFFF;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+background-color: #404BBF;
 }
 
 /*---------------BENEFITS---------------*/
@@ -155,7 +162,9 @@ body {
 
 /*---------------TEAM---------------*/
 
-.team {}
+.team {
+    background-color: #F4F4FD;
+}
 
 .team-title {
     font-size: 36px;
@@ -168,7 +177,9 @@ body {
 
 .team-menu {}
 
-.team-menu-item {}
+.team-menu-item {
+    background-color: #FFFFFF;
+}
 
 .team-img {}
 
@@ -201,6 +212,7 @@ body {
 .projects-button {
     background: #F4F4FD;
     border: 1px solid #E7E9FC;
+    font-size: 16px;
     border-radius: 4px;
     font-weight: 500;
     line-height: 1.50;
@@ -209,6 +221,7 @@ body {
     letter-spacing: 0.04em;
     color: #4D5AE5;
     font-family: var(--primary-font);
+    letter-spacing: 0.04em;
 }
 
 .projects-menu {}
@@ -244,6 +257,7 @@ box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
 0px 2px 2px rgba(0, 0, 0, 0.12);
 border-radius: 4px;
 color: #FFFFFF;
+cursor: pointer;
 }
 /*---------------FOOTER---------------*/
 
