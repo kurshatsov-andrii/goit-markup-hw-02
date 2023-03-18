@@ -264,6 +264,13 @@ color: var(--color-fon-text-button);
 background-color: var(--color-hover);
 color: var(--color-fon-text-button);
 }
+
+.project-link {}
+
+.project-link:hover,
+.project-link:focus {
+    color: var(--color-hover);
+}
 /*---------------FOOTER---------------*/
 
 .footer-main{
