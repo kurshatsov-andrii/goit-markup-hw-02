@@ -67,7 +67,9 @@ body {
 }
 
 .menu-item-link:hover,
-.menu-item-link:focus
+.menu-item-link:focus,
+.menu-item-address:hover,
+.menu-item-address:focus
 {
     color: var(--color-hover);
 }
